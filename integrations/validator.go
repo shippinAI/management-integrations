@@ -4,13 +4,13 @@ import (
 	"context"
 
 	cachestore "github.com/eko/gocache/lib/v4/store"
-	"github.com/netbirdio/netbird/management/internals/modules/peers"
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/settings"
-	"github.com/netbirdio/netbird/management/server/types"
-	"github.com/netbirdio/netbird/shared/management/networkmap/nmdata"
-	"github.com/netbirdio/netbird/shared/management/proto"
+	"github.com/shippinAI/wardenclyffe/management/internals/modules/peers"
+	"github.com/shippinAI/wardenclyffe/management/server/activity"
+	nbpeer "github.com/shippinAI/wardenclyffe/management/server/peer"
+	"github.com/shippinAI/wardenclyffe/management/server/settings"
+	"github.com/shippinAI/wardenclyffe/management/server/types"
+	"github.com/shippinAI/wardenclyffe/shared/management/networkmap/nmdata"
+	"github.com/shippinAI/wardenclyffe/shared/management/proto"
 )
 
 type IntegratedValidatorImpl struct {

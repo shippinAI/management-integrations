@@ -3,10 +3,10 @@ package integrations
 import (
 	"context"
 
-	"github.com/netbirdio/netbird/management/server/integrations/port_forwarding"
-	"github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/store"
-	"github.com/netbirdio/netbird/management/server/types"
+	"github.com/shippinAI/wardenclyffe/management/server/integrations/port_forwarding"
+	"github.com/shippinAI/wardenclyffe/management/server/peer"
+	"github.com/shippinAI/wardenclyffe/management/server/store"
+	"github.com/shippinAI/wardenclyffe/management/server/types"
 )
 
 type controllerImpl struct {

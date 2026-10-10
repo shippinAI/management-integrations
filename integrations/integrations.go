@@ -5,22 +5,22 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/netbirdio/netbird/management/internals/modules/peers"
-	"github.com/netbirdio/netbird/util/crypt"
+	"github.com/shippinAI/wardenclyffe/management/internals/modules/peers"
+	"github.com/shippinAI/wardenclyffe/util/crypt"
 
 	log "github.com/sirupsen/logrus"
 	"go.opentelemetry.io/otel/metric"
 
-	"github.com/netbirdio/netbird/management/server/store"
-	"github.com/netbirdio/netbird/management/server/telemetry"
+	"github.com/shippinAI/wardenclyffe/management/server/store"
+	"github.com/shippinAI/wardenclyffe/management/server/telemetry"
 
-	"github.com/netbirdio/netbird/management/server/account"
-	"github.com/netbirdio/netbird/management/server/activity"
-	activitystore "github.com/netbirdio/netbird/management/server/activity/store"
-	"github.com/netbirdio/netbird/management/server/integrations/integrated_validator"
-	"github.com/netbirdio/netbird/management/server/integrations/port_forwarding"
-	"github.com/netbirdio/netbird/management/server/permissions"
-	"github.com/netbirdio/netbird/management/server/settings"
+	"github.com/shippinAI/wardenclyffe/management/server/account"
+	"github.com/shippinAI/wardenclyffe/management/server/activity"
+	activitystore "github.com/shippinAI/wardenclyffe/management/server/activity/store"
+	"github.com/shippinAI/wardenclyffe/management/server/integrations/integrated_validator"
+	"github.com/shippinAI/wardenclyffe/management/server/integrations/port_forwarding"
+	"github.com/shippinAI/wardenclyffe/management/server/permissions"
+	"github.com/shippinAI/wardenclyffe/management/server/settings"
 )
 
 func RegisterHandlers(

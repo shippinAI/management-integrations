@@ -1,11 +1,10 @@
-module github.com/netbirdio/management-integrations/integrations
+module github.com/shippinAI/management-integrations/integrations
 
 go 1.25.5
 
 require (
 	github.com/eko/gocache/lib/v4 v4.2.0
 	github.com/gorilla/mux v1.8.1
-	github.com/netbirdio/netbird v0.75.1-0.20260803093422-9653b15d78a8
 	github.com/sirupsen/logrus v1.9.4
 	go.opentelemetry.io/otel/metric v1.43.0
 )
@@ -152,6 +151,6 @@ require (
 	gorm.io/gorm v1.25.12 // indirect
 )
 
-replace github.com/pion/ice/v4 => github.com/netbirdio/ice/v4 v4.0.0-20250908184934-6202be846b51
+replace github.com/pion/ice/v4 => github.com/shippinAI/ice/v4 v4.0.0-20250908184934-6202be846b51
 
-replace github.com/dexidp/dex => github.com/netbirdio/dex v0.244.0
+replace github.com/dexidp/dex => github.com/shippinAI/dex v0.244.0
